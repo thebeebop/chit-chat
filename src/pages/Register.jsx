@@ -31,7 +31,7 @@ function Register() {
           <input type="file" id="file" style={{ display: "none" }}></input>
           <label htmlFor="file">
             <ThemeProvider theme={theme}>
-              <AddPhotoAlternateIcon fontSize="large" color="primary" />
+              <AddPhotoAlternateIcon fontSize="normal" color="primary" />
             </ThemeProvider>
             <span> Upload avatar image</span>
           </label>
