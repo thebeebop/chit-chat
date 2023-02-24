@@ -4,6 +4,7 @@ import PersonAddRoundedIcon from "@mui/icons-material/PersonAddRounded";
 import VideoCallRoundedIcon from "@mui/icons-material/VideoCallRounded";
 import MoreHorizRoundedIcon from "@mui/icons-material/MoreHorizRounded";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Messages from "./Messages";
 
 const theme = createTheme({
   status: {
@@ -48,6 +49,8 @@ function Chat() {
           </ThemeProvider>
         </div>
       </div>
+      <Messages />
+      <Input />
     </div>
   );
 }
